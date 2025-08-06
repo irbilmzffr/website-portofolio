@@ -1,18 +1,17 @@
-/* Import Font */
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f5f5dc; /* krem */
-  color: #89CFF0; /* baby blue - ganti dari krem */
+  background-color: #f5f5dc; 
+  color: #89CFF0; 
   margin: 0;
   padding: 0;
 }
 
-/* Header */
+
 header {
-  background-color: #89CFF0; /* krem */
+  background-color: #89CFF0; 
   text-align: center;
   padding: 50px 20px;
-  color: #f5f5dc; /* baby blue */
+  color: #f5f5dc; 
 }
 
 header h1 {
@@ -25,7 +24,7 @@ header p {
   font-size: 1.2em;
 }
 
-/* Navigasi */
+
 nav {
   display: flex;
   justify-content: center;
@@ -44,21 +43,21 @@ nav a:hover {
   color: #000080;
 }
 
-/* Section */
+
 section {
   padding: 40px 20px;
 }
 
 .section-title {
   font-size: 1.8em;
-  color: #89CFF0; /* baby blue */
+  color: #89CFF0; 
   border-bottom: 3px solid #89CFF0;
   padding-bottom: 5px;
   margin-bottom: 20px;
 }
 
 
-/* Card Layout */
+
 .card {
   background-color: #add8e6;
   color: #333;
@@ -72,7 +71,7 @@ section {
   margin-top: 0;
 }
 
-/* Kontak */
+
 .kontak-container {
   display: flex;
   flex-wrap: wrap;
@@ -93,7 +92,7 @@ section {
   text-decoration: none;
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   padding: 20px;
