@@ -1,34 +1,102 @@
+/* Import Font */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5dc; /* krem */
+  color: #89CFF0; /* baby blue - ganti dari krem */
   margin: 0;
   padding: 0;
 }
 
+/* Header */
 header {
-  background-color: #4CAF50;
-  color: white;
-  padding: 20px;
+  background-color: #89CFF0; /* krem */
   text-align: center;
+  padding: 50px 20px;
+  color: #f5f5dc; /* baby blue */
 }
 
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* Navigasi */
 nav {
-  background-color: #333;
-  padding: 10px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: #dcdcdc;
+  padding: 10px 0;
 }
 
 nav a {
-  color: white;
-  margin: 0 15px;
+  color: #333;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #000080;
+}
+
+/* Section */
+section {
+  padding: 40px 20px;
+}
+
+.section-title {
+  font-size: 1.8em;
+  color: #89CFF0; /* baby blue */
+  border-bottom: 3px solid #89CFF0;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+
+/* Card Layout */
+.card {
+  background-color: #add8e6;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* Kontak */
+.kontak-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.kontak-container p {
+  background-color: #add8e6;
+  color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  flex: 1 1 200px;
+  box-shadow: 0px 0px 5px #888;
+}
+
+.kontak-container a {
+  color: #000080;
   text-decoration: none;
 }
 
-section {
-  padding: 20px;
-}
-
+/* Footer */
 footer {
-  background-color: #eee;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  background-color: #add8e6;
+  color: #333;
 }
